@@ -316,8 +316,9 @@ dependencies = [
 
 [[package]]
 name = "polylabel"
-version = "3.0.0"
-source = "git+https://github.com/dabreegster/polylabel-rs?branch=update_geo#f01b75acbc5ef9c8b1f61af8f74e3403c1ee9d0b"
+version = "3.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "93b10c25671a60bbd95b230005a8fa1964d34ee4dbcd7306c36fac979b660fab"
 dependencies = [
  "geo",
  "num-traits",
